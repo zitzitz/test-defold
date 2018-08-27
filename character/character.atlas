@@ -1,0 +1,93 @@
+animations {
+  id: "idle"
+  images {
+    image: "/character/idle/i1.png"
+  }
+  images {
+    image: "/character/idle/i2.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 2
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "attack"
+  images {
+    image: "/character/attack/a1.png"
+  }
+  images {
+    image: "/character/attack/a10.png"
+  }
+  images {
+    image: "/character/attack/a11.png"
+  }
+  images {
+    image: "/character/attack/a12.png"
+  }
+  images {
+    image: "/character/attack/a13.png"
+  }
+  images {
+    image: "/character/attack/a2.png"
+  }
+  images {
+    image: "/character/attack/a3.png"
+  }
+  images {
+    image: "/character/attack/a4.png"
+  }
+  images {
+    image: "/character/attack/a5.png"
+  }
+  images {
+    image: "/character/attack/a6.png"
+  }
+  images {
+    image: "/character/attack/a7.png"
+  }
+  images {
+    image: "/character/attack/a8.png"
+  }
+  images {
+    image: "/character/attack/a9.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "run"
+  images {
+    image: "/character/run/k1.png"
+  }
+  images {
+    image: "/character/run/k2.png"
+  }
+  images {
+    image: "/character/run/k3.png"
+  }
+  images {
+    image: "/character/run/k4.png"
+  }
+  images {
+    image: "/character/run/k5.png"
+  }
+  images {
+    image: "/character/run/k6.png"
+  }
+  images {
+    image: "/character/run/k7.png"
+  }
+  images {
+    image: "/character/run/k8.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 8
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
